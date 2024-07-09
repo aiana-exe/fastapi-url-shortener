@@ -1,0 +1,52 @@
+
+*.env.*
+env.*
+
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyo
+*.pyd
+*.pyc
+
+# Virtual environment directories
+venv/
+.venv/
+
+# Environment files
+.env
+*.env
+
+# Alembic migration cache
+migrations/versions/__pycache__
+migrations/versions/*.pyc
+
+# Editor directories and files
+.vscode/
+.idea/
+*.swp
+*~
+
+# Test and development artifacts
+tests/
+coverage/
+*.cover
+*.log
+*.tmp
+
+# Docker-related files
+Dockerfile
+docker-compose.yml
+
+# Git files
+.git
+.gitignore
+.gitattributes
+
+# Other system files
+.DS_Store
+*.bak
+Thumbs.db
